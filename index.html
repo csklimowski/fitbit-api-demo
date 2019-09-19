@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript" src="bundle.js"></script>
+</head>
+<body>
+    <div>
+        <section id="no-access">
+            <p>
+                You don't have FitBit API access.
+                <a href="https://www.fitbit.com/oauth2/authorize?response_type=code&client_id=<client id>&scope=activity%20heartrate%20sleep&expires_in=604800">Request Access</a>
+            </p>
+        </div>
+        <section id="access">
+            <p>
+                Here is your FitBit data:
+            </p>
+            <code>Loading data...</code>
+        </div>
+    </div>
+</body>
+</html>

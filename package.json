@@ -1,0 +1,29 @@
+{
+  "name": "fitbit-api-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node server.js",
+    "build": "webpack index.js -o bundle.js --progress --mode production",
+    "watch": "webpack index.js -o bundle.js --watch --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csklimowski/fitbit-api-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csklimowski/fitbit-api-demo/issues"
+  },
+  "homepage": "https://github.com/csklimowski/fitbit-api-demo#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
